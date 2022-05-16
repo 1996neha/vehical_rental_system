@@ -21,11 +21,11 @@ Rent different kinds of vehicles such as cars and bikes.
 * Exception Handling - Custom exceptions when Branch/Vehicle not found.
 
 ## How to run the code
-Internally both the scripts run the following commands 
-
  * `mvn clean install -DskipTests assembly:single -q` - This will create a jar file `geektrust-1.0.jar` in the `target` folder.
- * `java -jar target/geektrust-1.0.jar sample_input/input1.txt` - This will execute the jar file passing in the sample input file as the command line argument
- 
+ * `java -jar target/geektrust-1.0.jar sample_input/input1.txt` - This will execute the jar file passing in the sample input file as the command line argument.
+
+Input will be read from the text file, and output will be printed to the console.
+
 ## How to execute the unit tests
 
  `mvn clean test` will execute the unit test cases.
